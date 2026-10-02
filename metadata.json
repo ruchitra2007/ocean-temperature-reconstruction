@@ -1,0 +1,6 @@
+{
+  "name": "Ocean Temperature Reconstruction",
+  "description": "AI-based subsurface temperature estimation for the North Indian Ocean using surface satellite observations",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+    --font-display: 'Space Grotesk', sans-serif;
+
+    --color-ocean-primary: #071A2B;
+    --color-ocean-secondary: #0B4F6C;
+    --color-ocean-accent: #20C4D9;
+    --color-ocean-highlight: #55E6D1;
+    --color-ocean-bg: #F5F9FC;
+    --color-ocean-card: #FFFFFF;
+    --color-ocean-text: #102A43;
+    --color-ocean-muted: #627D98;
+    --color-ocean-border: #D9E6EF;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #102A43;
+    background-color: #F5F9FC;
+  }
+}
+
+/* Custom subtle oceanic scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #EBF2F7;
+}
+::-webkit-scrollbar-thumb {
+  background: #BCCCDC;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #829AB1;
+}
+
